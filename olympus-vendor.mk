@@ -31,5 +31,3 @@ PRODUCT_COPY_FILES := \
 DEVICE_PACKAGE_OVERLAYS += vendor/motorola/olympus/overlay
 
 $(call inherit-product, vendor/motorola/olympus/olympus-vendor-blobs.mk)
-PRODUCT_PACKAGES += DeepSleepService
-PRODUCT_PACKAGES += FastDormancy

@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
     vendor/motorola/olympus/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/olympus/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/motorola/olympus/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/motorola/olympus/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
     vendor/motorola/olympus/proprietary/lib/hw/sensors.olympus.so:system/lib/hw/sensors.olympus.so \
@@ -116,6 +115,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/etc/touchpad/22/touchpad.cfg:system/etc/touchpad/22/touchpad.cfg \
     vendor/motorola/olympus/proprietary/bin/whisperd:system/bin/whisperd \
     vendor/motorola/olympus/proprietary/bin/aplogd:system/bin/aplogd \
+    vendor/motorola/olympus/proprietary/app/DeepSleepService.apk:system/app/DeepSleepService.apk \
+    vendor/motorola/olympus/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
     vendor/motorola/olympus/proprietary/lib/libam2server.so:system/lib/libam2server.so \
     vendor/motorola/olympus/proprietary/lib/libam2app.so:system/lib/libam2app.so \
     vendor/motorola/olympus/proprietary/lib/libsensortest.so:system/lib/libsensortest.so \
